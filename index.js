@@ -1,6 +1,8 @@
 const jsonwebtoken = require(`jsonwebtoken`)
 
-
+function test(a, b){
+    return a+b
+}
 
 function authenticateToken(bearertoken, publickey, signOptions) {
     if ( typeof jwt == `undefined`) throw new Error('jwt is undefined')
@@ -14,4 +16,7 @@ function authenticateToken(bearertoken, publickey, signOptions) {
     });
 }
 
-module.exports = authenticateToken;
+module.exports = {
+    test, 
+    authenticateToken
+}
