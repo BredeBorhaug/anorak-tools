@@ -17,6 +17,6 @@ function authenticateToken(bearertoken, publickey, signOptions) {
 }
 
 module.exports = {
-    test, 
+    pong, 
     authenticateToken
 }
