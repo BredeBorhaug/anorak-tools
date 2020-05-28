@@ -1,6 +1,6 @@
 {
   "name": "anorak-tools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The anorak tooling package",
   "main": "app.js",
   "scripts": {

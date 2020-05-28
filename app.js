@@ -1,7 +1,7 @@
 const jsonwebtoken = require(`jsonwebtoken`)
 
-function test(a, b){
-    return a+b
+function pong(){
+    return 'pong'
 }
 
 function authenticateToken(bearertoken, publickey, signOptions) {
